@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+}
+.board {
+  width: 500px;
+  height: 500px;
+  background-color: aquamarine;
+  display: flex;
+  flex-direction: column;
+  border: 2px solid black;
+}
+.row {
+  flex: 33%;
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+}
+.square {
+  flex: 33%;
+  border: 1px solid black;
+  display: grid;
+  place-items: center;
+  font-size: 2rem;
+  font-weight: 700;
+  height: 100%;
+}
